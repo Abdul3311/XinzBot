@@ -2884,7 +2884,7 @@ listMessage :{
     title: `Hallo ${pushname}`,
     description: `Silahkan Pilih Menunya\nKalo ada yang eror harap dimaklumi\n\n`,
     buttonText: "Menu",
-    footerText: `*© Powered by karuta*`,
+    footerText: `*© Powered By Elaina*`,
     listType: "SINGLE_SELECT",
     sections: [{
 "title": "𝙁𝙞𝙩𝙪𝙧 𝘼𝙬𝙖𝙡 𝘽𝙤𝙩",
@@ -3192,7 +3192,7 @@ if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daf
  if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-online-980.html'
 if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
  let anu = await maker.textpro(link, q)
-naimi.sendMessage(m.chat, { image: { url: anu }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m })
+naimi.sendMessage(m.chat, { image: { url: anu }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m })
  }
 break
 case '3dbox':
@@ -3204,7 +3204,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/3d-box-text-effect-online-880.html", [
     `${q}`,])
-.then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+.then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
 .catch((err) => console.log(err));
 break
 case 'drapwater':
@@ -3216,7 +3216,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
  maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
 `${q}`,])
-    .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+    .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
     .catch((err) => console.log(err));
 break
 case 'lion2':
@@ -3228,7 +3228,7 @@ if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daf
   reply(mess.wait)
   maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [
  `${q}`,])
-.then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+.then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
 .catch((err) => console.log(err));
 
 break
@@ -3241,7 +3241,7 @@ if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daf
  reply(mess.wait)
  maker.textpro("https://textpro.me/create-art-paper-cut-text-effect-online-1022.html", [
 `${q}`,])
- .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+ .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
  .catch((err) => console.log(err));
  
 break
@@ -3254,7 +3254,7 @@ if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daf
  reply(mess.wait)
  maker.textpro("https://textpro.me/create-a-transformer-text-effect-online-1035.html", [
 `${q}`,])
-.then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+.then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
 .catch((err) => console.log(err));
 
 break
@@ -3269,7 +3269,7 @@ if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daf
   teks2 = q.split("|")[1]
   maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", [
  `${teks1}`,`${teks2}`])
- .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+ .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
  .catch((err) => console.log(err));
  
 break
@@ -3282,7 +3282,7 @@ if (!isRegister) return reply(blomdaftar) & sendButMessage (sender, daftar1, daf
  reply(mess.wait)
  maker.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html", [
 `${q}`,])
- .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+ .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
  .catch((err) => console.log(err));
  
 break
@@ -3295,7 +3295,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3308,7 +3308,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3321,7 +3321,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3334,7 +3334,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3350,7 +3350,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
 break
 case 'pornhub':
@@ -3363,7 +3363,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
 break
 case 'blackping':
@@ -3375,7 +3375,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3388,7 +3388,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3403,7 +3403,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/create-a-glitch-text-effect-online-free-1026.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3418,7 +3418,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3433,7 +3433,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/create-space-3d-text-effect-online-985.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3448,7 +3448,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3461,7 +3461,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3474,7 +3474,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/neon-text-effect-online-879.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3487,7 +3487,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/green-neon-text-effect-874.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3500,7 +3500,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/bokeh-text-effect-876.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3513,7 +3513,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/holographic-3d-text-effect-975.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3528,7 +3528,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3543,7 +3543,7 @@ teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
 maker.textpro("https://textpro.me/create-wolf-logo-galaxy-online-936.html", [
     `${teks1}`,`${teks2}`])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3556,7 +3556,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/create-logo-joker-online-934.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3569,7 +3569,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3582,7 +3582,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-981.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
 break
 case 'natural':
@@ -3594,7 +3594,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3607,7 +3607,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 maker.textpro("https://textpro.me/carbon-text-effect-833.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 break
@@ -3620,7 +3620,7 @@ if(!q) return reply(`Penggunaan ${prefix + command} teks`)
 reply(mess.wait)
 textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
     `${q}`,])
-  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered by karuta*\n\nJangan lupa donet :)` }, { quoted: m }))
+  .then((data) => naimi.sendMessage(m.chat, { image: { url: data }, caption: `*© Powered By Elaina*\n\nJangan lupa donet :)` }, { quoted: m }))
   .catch((err) => console.log(err));
    
 ///STIKERMENU
@@ -4250,7 +4250,7 @@ naimi.sendMessage(from, {video:{url:i.url}, caption:`Type : ${i.type}`, mimetype
   if (!q) return reply(`Masukan linknya`)
   try {
     reply(mess.wait)
-  naimi.sendMessage(from, {image:{url:args[0]}, caption:' © Powered by Karuta'}, {quoted:m})
+  naimi.sendMessage(from, {image:{url:args[0]}, caption:' © Powered By Elaina'}, {quoted:m})
   } catch {
 reply("Linknya Error")
 }
